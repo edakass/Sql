@@ -1,6 +1,7 @@
 # Sql
 
 
+```
 
 create table humans(
 
@@ -15,7 +16,7 @@ create table humans(
 	 h_city varchar(16)
    
 );
-
+```
 
 create table pet(
 
