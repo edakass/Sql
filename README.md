@@ -183,7 +183,27 @@ SELECT * FROM pet WHERE p_kind='Dog' Or (p_age='2' And p_age='3')
 
 
 
+### --------------------------------------------------------------------------------------------------------
 
+```
+
+Select  sc.h_name,h_surname,h_city,h_age,sct.p_name,sct.p_age,sct.p_color,sct.p_kind 
+
+from dbo.humans sc 
+
+Inner join dbo.pet sct On sc.h_id=sct.h_id
+
+where sct.p_color='Yellow';
+
+
+```
+
+
+![image](https://user-images.githubusercontent.com/61595808/145287428-0f10b63e-1c48-40a5-a068-c8f53a464084.png)
+
+
+
+### -------------------------------------------------------------------------------------------------------------
 
 
 
