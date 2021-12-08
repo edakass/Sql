@@ -115,6 +115,32 @@ where sct.p_kind='Bird';
 
  
  ![image](https://user-images.githubusercontent.com/61595808/145284328-42c033a4-827c-45c8-b536-51898678a3f3.png)
+ 
+ 
+ ### ------------------------------------------------------------------------------------------------------------
+ 
+ 
+ Select  sc.h_name,sc.h_surname,sct.p_name,sct.p_age,sct.p_color,sct.p_kind
+ 
+from dbo.humans sc Inner join dbo.pet sct On sc.h_id=sct.h_id
+
+where sct.p_kind='Bird';
+
+ ![image](https://user-images.githubusercontent.com/61595808/145284516-9b2f98d1-38b6-486b-bd4d-47358a34a293.png)
+
+
+
+### ---------------------------------------------------------------------------------------------------------
+
+
+Select  sct.p_name,sct.p_age,sct.p_color,sct.p_kind
+
+from dbo.humans sc Inner join dbo.pet sct On sc.h_id=sct.h_id
+
+where sc.h_name='Eda';
+
+
+![image](https://user-images.githubusercontent.com/61595808/145284796-b0f1b9e0-dd2e-421a-8be3-a5b7982ea959.png)
 
 
 
