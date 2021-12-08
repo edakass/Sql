@@ -83,6 +83,7 @@ UPDATE pet SET  p_kind='Bird', p_name='Love' , p_age='2' WHERE p_id = '4'
 ![image](https://user-images.githubusercontent.com/61595808/145254301-496bbebb-00da-4d9e-a2ca-f368548381b2.png)
 
 
+### ------------------------------------------------------------------------------------------------------------
 
 SELECT humans.h_id, humans.h_name ,human_pet.h_id,human_pet.p_id
 
@@ -93,7 +94,8 @@ WHERE (((humans.h_surname)='Kaş'));
 
 ![image](https://user-images.githubusercontent.com/61595808/145259685-c71c5e89-94fa-4d80-8eca-3325c9d76a66.png)
 
-### 
+
+### ------------------------------------------------------------------------------------------------------------
  
 
 
