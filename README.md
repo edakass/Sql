@@ -79,6 +79,7 @@ Insert Into dbo.pet (p_id,p_name,p_age,p_color,p_kind) values (10,'Limon','2','Y
 
 UPDATE pet SET  p_kind='Bird', p_name='Love' , p_age='2' WHERE p_id = '4'
 
+### -----------------------------------------------------------------------------------------------------------
 
 ![image](https://user-images.githubusercontent.com/61595808/145254301-496bbebb-00da-4d9e-a2ca-f368548381b2.png)
 
