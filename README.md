@@ -98,5 +98,11 @@ WHERE (((humans.h_surname)='Kaş'));
 
 ### ------------------------------------------------------------------------------------------------------------
  
+ 
+ Select * from dbo.humans sc Inner join dbo.pet sct On sc.h_id=sct.h_id
+ 
+ ![image](https://user-images.githubusercontent.com/61595808/145279489-44399060-7080-4930-ba9c-2c5a3b88baed.png)
+
+
 
 
