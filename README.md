@@ -102,6 +102,22 @@ WHERE (((humans.h_surname)='Kaş'));
  Select * from dbo.humans sc Inner join dbo.pet sct On sc.h_id=sct.h_id
  
  ![image](https://user-images.githubusercontent.com/61595808/145279489-44399060-7080-4930-ba9c-2c5a3b88baed.png)
+ 
+ 
+ ### -----------------------------------------------------------------------------------------------------------
+ 
+ 
+ Select  sc.h_name,sc.h_surname,sct.p_name,sct.p_age,sct.p_color
+ 
+from dbo.humans sc Inner join dbo.pet sct On sc.h_id=sct.h_id
+
+where sct.p_kind='Bird';
+
+ 
+ ![image](https://user-images.githubusercontent.com/61595808/145284328-42c033a4-827c-45c8-b536-51898678a3f3.png)
+
+
+
 
 
 
