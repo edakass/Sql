@@ -1,6 +1,7 @@
 # Sql
 
 
+` eklenecek kod örn
 'create table humans(
 
      h_id int primary key,
@@ -14,7 +15,7 @@
 	 h_city varchar(16)
    
 );'
-
+eği`
 
 create table pet(
 
