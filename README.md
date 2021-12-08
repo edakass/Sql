@@ -170,6 +170,19 @@ where sc.h_name='Eda';
 
 
 
+### ------------------------------------------------------------------------------------------------------------
+
+
+```
+SELECT * FROM pet WHERE p_kind='Dog' Or (p_age='2' And p_age='3')
+
+```
+
+![image](https://user-images.githubusercontent.com/61595808/145286686-259f0957-796b-4b16-8a3e-6616ada6e8b5.png)
+
+
+
+
 
 
 
