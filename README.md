@@ -2,7 +2,23 @@
 
 
 
-'create table humans(
+`
+create table humans(
+
+     h_id int primary key,
+     
+	   h_age int,
+     
+	   h_name varchar(16),
+     
+	  h_surname varchar(16),
+    
+	 h_city varchar(16)
+   
+);
+
+`
+create table humans(
 
      h_id int primary key,
      
