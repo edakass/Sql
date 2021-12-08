@@ -1,6 +1,22 @@
 # Sql
 
 
+ONE TO MANY (1-N) Example
+
+
+dbo.humans
+
+![image](https://user-images.githubusercontent.com/61595808/145287994-6044bcf7-f784-4393-9a0e-7105ab5c77b5.png)
+
+
+
+dbo.pet
+
+
+![image](https://user-images.githubusercontent.com/61595808/145288094-c652e19a-d78b-49a3-b356-d6c7c9962917.png)
+
+
+
 ```
 
 create table humans(
