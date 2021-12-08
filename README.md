@@ -1,6 +1,51 @@
 # Sql
 
-dbo.pet
+
+create table humans(
+
+     h_id int primary key,
+     
+	   h_age int,
+     
+	   h_name varchar(16),
+     
+	  h_surname varchar(16),
+    
+	 h_city varchar(16)
+   
+);
+
+
+create table pet(
+
+    p_id int primary key,
+    
+	p_name varchar(16),
+  
+	p_age int,
+  
+	p_color varchar(16) ,
+	
+	h_id int  FOREIGN KEY REFERENCES humans(h_id)
+	
+	);
+
+
+DROP TABLE IF EXISTS human_pet;
+
+create table human_pet(
+  
+	h_id int  FOREIGN KEY REFERENCES humans(h_id),
+  
+	p_id int  FOREIGN KEY REFERENCES pet(p_id),
+  
+	primary key(p_id,h_id)
+	
+);
+
+
+
+### dbo.pet
 
 
 Alter Table pet Add p_kind varchar(16);
